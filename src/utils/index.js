@@ -40,9 +40,9 @@ export { default as testimonials5 } from '../assets/images/testimonials/testimon
 export { default as testimonials6 } from '../assets/images/testimonials/testimonials-6.jpg';
 
 //socials
-export { default as instagram } from '../assets/images/testimonials/instagram.png';
-export { default as threads } from '../assets/images/testimonials/threads.png';
-export { default as x } from '../assets/images/testimonials/x.png';
+export { default as instagram } from '../assets/images/testimonials/socials/Instagram.png';
+export { default as threads } from '../assets/images/testimonials/socials/Threads.png';
+export { default as x } from '../assets/images/testimonials/socials/X.png';
 
 // cta
 export { default as cta1 } from '../assets/images/cta/cta-1.png';
