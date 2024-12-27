@@ -82,19 +82,6 @@ const Features = () => {
                                         >
                                             <Pointer name="anita" color="secondary" />
                                         </motion.div>
-
-                                        <motion.div
-                                            initial={{ x: 0, y: 0 }}
-                                            animate={{
-                                                x: [200, -40, 200],
-                                                y: [0, -200, 50],
-                                                rotate: [0, 20, -20, 0],
-                                                transition: { duration: 1.5, ease: "easeInOut", delay: 0.9 },
-                                            }}
-                                            className="absolute top-40 left-48"
-                                        >
-                                            <Pointer name="serena" color="#d8b4fe" />
-                                        </motion.div>
                                     </>
                                 )}
                             </div>

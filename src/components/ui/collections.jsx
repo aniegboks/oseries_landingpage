@@ -16,13 +16,8 @@ const Collections = () => {
             <Avatar className='-ml-6 border-secondry z-10'>
                 <img src={img3} alt='Profile picture 3' className='rounded-full' />
             </Avatar>
-            <Avatar className='-ml-6 border-transparent group-hover:border-purple-300 transition'>
+            <Avatar className='-ml-6 border-transparent'>
                 <div className='size-full bg-neutral-700 rounded-full inline-flex items-center justify-center gap-1 relative'>
-                    <img
-                        src={hov1}
-                        alt='Hover effect'
-                        className='absolute size-full rounded-full opacity-0 group-hover:opacity-100'
-                    />
                     {Array.from({ length: 3 }).map((_, i) => (
                         <span
                             className='size-1.5 rounded-full bg-white inline-flex'
